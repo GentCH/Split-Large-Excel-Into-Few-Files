@@ -42,7 +42,7 @@ partitions = 100000
   <br/>
   - [(i*partitions):((i+1)*partitions)] is the row indexes.
   <br/>
-  - .empty is to indicate whether Series/DataFrame is empty.
+  - .empty is to indicate whether DataFrame is empty, and break if empty.
 </p>
 
 ```
